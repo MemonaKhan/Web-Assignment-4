@@ -1,0 +1,253 @@
+
+/*NavBar*/
+
+.navbar{
+    background-color: rgba(196, 196, 204, 0.9) !important;
+    background-image: url("../imgs/top.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0em !important;
+}
+.navbar .navbar-brand{
+    padding-left: 2em;
+}
+/* .navbar .dropdown:hover .dropdown-menu{
+    display: block !important; 
+} */
+.navbar .dropdown-menu{
+    background-color: rgba(196, 196, 204,0.9) !important;
+}
+.navbar .dropdown-item:hover{
+    background-color: #59546D !important;
+    color: rgb(196, 196, 204) !important;
+}
+.navbar .collapse{
+    padding-left: 2em;
+    padding-top: 3em;
+}
+/* .navbar .form-inline{
+    margin-top: -5em !important;
+} */
+.navbar .form-inline .form-control{
+    background-color: rgb(196, 196, 204) ;
+    border: none;
+}
+.navbar .form-inline .btn{
+    font-size: 30px;
+}
+.navbar a{
+    color: #59546D !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  !important;
+    text-transform: uppercase;
+}
+.navbar .active{
+    font-weight: bold;
+}
+@media (min-width:990px){
+    .navbar .form-inline{
+        margin-top: -5em !important;
+    }
+    .navbar .dropdown:hover .dropdown-menu{
+        display: block !important; 
+    }
+}
+
+
+
+
+
+
+
+/*Background Image of History Section*/
+
+
+.back-image{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../imgs/process.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100% ;
+    padding-bottom: 2%;
+}
+
+/*Process*/
+
+.heading{
+    margin: 50px 0px 50px 0px;
+}
+.heading h1{
+    color: rgba(89, 84, 109,0.8);
+    font-family: cursive;
+    font-weight: bolder;
+    padding: 50px;
+}
+.heading h1 span{
+    color: rgba(156, 15, 6,0.8);
+}
+.heading p{
+    color: #59546D;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 15px;
+}
+.heading img{
+    margin-top: 50px;
+}
+
+
+/*Tabs of Process*/
+.process-tabs{
+    height: 400px;
+}
+.process-tabs h1{
+    font-family: serif;
+}
+.process-tabs hr{
+    border: 1px solid rgba(156, 15, 6,0.5);
+}
+.process-tabs img{
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+}
+.process-tabs p{
+    color: #59546D;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 15px;
+}
+.process-tabs .tabs{
+    position: relative;
+}
+.process-tabs .tabs .tab{
+    float: left;
+    display: block;
+}
+.process-tabs .tabs .tab>input[type="radio"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+}
+.process-tabs .tabs .tab>label {
+    display: block;
+    padding: 6px 21px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color: #59546D;
+    background: rgb(196, 196, 204);
+}
+.process-tabs .tabs .content {
+    z-index: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 300px;
+    padding: 25px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border : 2px solid rgb(156, 15, 6);
+    box-shadow: 10px 10px rgba(156, 15, 6,0.2);
+    color: #59546D;
+    opacity:0;
+}
+.process-tabs .tabs>.tab>[id^="tab"]:checked + label {
+    background: #59546D;
+    color: #F5F5F5;
+}
+.process-tabs .tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+    z-index: 1;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer{
+    margin-top: 50px;
+    color: #59546D !important;
+    background-color: rgba(196, 196, 204, 0.9) !important;
+    background-image: url("../imgs/bottom.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.footer h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer .logo img{
+    padding: 10px;
+    width: 100px;
+}
+.footer .row .about{
+    padding-bottom: 60px;
+}
+.footer .links, .footer .contacts{
+    padding-top: 110px;
+}
+.footer .contacts ul{
+    margin: 20px 0px 0px -50px;
+}
+.footer .contacts ul li{
+    display: inline;
+    padding: 5px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer .about i{
+    padding-right: 10px;
+}
+.footer .contacts i{
+    font-size: 25px !important;
+}
+.footer .footer-copyright {
+    margin-left: 20px;
+    color: rgb(196, 196, 204);
+}
+.footer .footer-copyright a, .footer .footer-copyright a:hover{
+    padding-bottom: 10px;
+    padding-left: 3px;
+    color: rgb(196, 196, 204);
+    text-decoration: none;
+}
+
+/* Scroll to Top */
+
+html{
+    scroll-behavior: smooth;
+}
+.scrollToTop{
+    font-size: 50px;
+    font-family: Courier;
+    text-align: center;
+}
+.scrolltop i{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    z-index: 99;
+}
+.scrolltop i:hover{
+    background-color: rgba(0,0,0,0.6);
+}

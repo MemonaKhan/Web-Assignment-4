@@ -1,0 +1,141 @@
+
+/*NavBar*/
+
+.navbar{
+    background-color: rgba(196, 196, 204, 0.9) !important;
+    background-image: url("../imgs/top.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0em !important;
+}
+.navbar .navbar-brand{
+    padding-left: 2em;
+}
+/* .navbar .dropdown:hover .dropdown-menu{
+    display: block !important; 
+} */
+.navbar .dropdown-menu{
+    background-color: rgba(196, 196, 204,0.9) !important;
+}
+.navbar .dropdown-item:hover{
+    background-color: #59546D !important;
+    color: rgb(196, 196, 204) !important;
+}
+.navbar .collapse{
+    padding-left: 2em;
+    padding-top: 3em;
+}
+/* .navbar .form-inline{
+    margin-top: -5em !important;
+} */
+.navbar .form-inline .form-control{
+    background-color: rgb(196, 196, 204) ;
+    border: none;
+}
+.navbar .form-inline .btn{
+    font-size: 30px;
+}
+.navbar a{
+    color: #59546D !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  !important;
+    text-transform: uppercase;
+}
+.navbar .active{
+    font-weight: bold;
+}
+@media (min-width:990px){
+    .navbar .form-inline{
+        margin-top: -5em !important;
+    }
+    .navbar .dropdown:hover .dropdown-menu{
+        display: block !important; 
+    }
+}
+
+
+
+
+
+
+
+/*Google Map*/
+
+iframe{
+    background-color: rgb(196, 196, 204) ;
+}
+
+
+
+
+/*Footer*/
+
+.footer{
+    color: #59546D !important;
+    background-color: rgba(196, 196, 204, 0.9) !important;
+    background-image: url("../imgs/bottom.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.footer h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer .logo img{
+    padding: 10px;
+    width: 100px;
+}
+.footer .row .about{
+    padding-bottom: 60px;
+}
+.footer .links, .footer .contacts{
+    padding-top: 110px;
+}
+.footer .contacts ul{
+    margin: 20px 0px 0px -50px;
+}
+.footer .contacts ul li{
+    display: inline;
+    padding: 5px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer .about i{
+    padding-right: 10px;
+}
+.footer .contacts i{
+    font-size: 25px !important;
+}
+.footer .footer-copyright {
+    margin-left: 20px;
+    color: rgb(196, 196, 204);
+}
+.footer .footer-copyright a, .footer .footer-copyright a:hover{
+    padding-bottom: 10px;
+    padding-left: 3px;
+    color: rgb(196, 196, 204);
+    text-decoration: none;
+}
+
+/* Scroll to Top */
+
+html{
+    scroll-behavior: smooth;
+}
+.scrollToTop{
+    font-size: 50px;
+    font-family: Courier;
+    text-align: center;
+}
+.scrolltop i{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    z-index: 99;
+}
+.scrolltop i:hover{
+    background-color: rgba(0,0,0,0.6);
+}
