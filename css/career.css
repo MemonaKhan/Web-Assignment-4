@@ -90,10 +90,9 @@
 .heading h1 span{
     color: rgba(156, 15, 6,0.8);
 }
-.heading p{
-    color: #59546D;
-    padding: 0px 0px 0px 50px;
+.heading ul{
     text-align: justify;
+    list-style-position: outside;color: #59546D;
     font-family: monospace;
     font-size: 15px;
 }
@@ -175,6 +174,18 @@
     color: rgb(196, 196, 204);
     text-decoration: none;
 }
+@media all and (max-width:768px){
+    .footer .row .about{
+        padding-bottom: 0px !important;
+    }
+    .footer .links, .footer .contacts{
+        padding-top: 0px !important;
+    }
+    .footer .contacts{
+        padding-bottom: 30px !important;
+    }
+}
+
 
 
 

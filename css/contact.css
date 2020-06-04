@@ -242,6 +242,18 @@ input::placeholder, textarea::placeholder{
     color: rgb(196, 196, 204);
     text-decoration: none;
 }
+@media all and (max-width:768px){
+    .footer .row .about{
+        padding-bottom: 0px !important;
+    }
+    .footer .links, .footer .contacts{
+        padding-top: 0px !important;
+    }
+    .footer .contacts{
+        padding-bottom: 30px !important;
+    }
+}
+
 
 
 /* Scroll to Top */

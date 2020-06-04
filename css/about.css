@@ -113,8 +113,11 @@
     background-position: center;
     height: auto;
     width: 100% ;
+    font-family: monospace;
     padding-bottom: 2%;
-    color: white;
+    font-size: 15px;
+    color: white;color: rgb(196, 196, 204);
+    text-align: center;
 }
 .skills .progress{
     height: 25px;
@@ -122,6 +125,13 @@
 }
 .progress-bar{
     background-color: rgba(89, 84, 109,0.8);
+}
+.skills .why-us h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.skills .why-us i{
+    font-size: 50px;
 }
 
 
@@ -246,6 +256,17 @@
     padding-left: 3px;
     color: rgb(196, 196, 204);
     text-decoration: none;
+}
+@media all and (max-width:768px){
+    .footer .row .about{
+        padding-bottom: 0px !important;
+    }
+    .footer .links, .footer .contacts{
+        padding-top: 0px !important;
+    }
+    .footer .contacts{
+        padding-bottom: 30px !important;
+    }
 }
 
 /* Scroll to Top */
