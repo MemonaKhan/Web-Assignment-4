@@ -92,6 +92,10 @@ iframe{
 .footer .contacts ul{
     margin: 20px 0px 0px -50px;
 }
+.footer .links a{
+    color: #59546D;
+    font-weight: bold;
+}
 .footer .contacts ul li{
     display: inline;
     padding: 5px;

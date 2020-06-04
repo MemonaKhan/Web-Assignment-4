@@ -74,6 +74,7 @@
     height: 200px;
     width: 100% ;
     padding-bottom: 2%;
+    box-shadow: 0 10px 30px 10px rgb(162, 162, 170);
 }
 
 
@@ -118,6 +119,7 @@
     font-size: 15px;
     color: white;color: rgb(196, 196, 204);
     text-align: center;
+    box-shadow: 10px 0 30px 10px rgb(162, 162, 170);
 }
 .skills .progress{
     height: 25px;
@@ -162,6 +164,7 @@
     padding-top: 30px;
     background-color: rgb(196, 196, 204);
     height: auto;
+    box-shadow: 0 10px 30px 10px rgb(162, 162, 170);
 }
 .informed h4{
     padding-top: 10px;
@@ -217,6 +220,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
+    box-shadow: 0px 10px 30px 10px rgb(162, 162, 170);
 }
 .footer h5{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -230,6 +234,10 @@
 }
 .footer .links, .footer .contacts{
     padding-top: 110px;
+}
+.footer .links a{
+    color: #59546D;
+    font-weight: bold;
 }
 .footer .contacts ul{
     margin: 20px 0px 0px -50px;

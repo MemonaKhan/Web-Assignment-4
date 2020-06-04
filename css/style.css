@@ -83,13 +83,9 @@
 
 /*Slider*/
 
-/* #carouselExampleCaptions{
-    margin-left: 50px;
-} */
-/* 
 #carouselExampleCaptions{
-    margin-top: -70px;
-} */
+    box-shadow: 0 10px 30px 10px rgb(196, 196, 204);
+} 
 
 
 
@@ -151,6 +147,7 @@
     padding-bottom: 2%;
     background-repeat : no-repeat;
     background-attachment: fixed;
+    box-shadow: 10px 0 30px 10px rgb(162, 162, 170);
 }
 .num-bar{
     color: rgb(196, 196, 204);
@@ -226,6 +223,7 @@
     background-image: url("../imgs/bottom.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    box-shadow: 10px 0 30px 10px rgb(196, 196, 204);
 }
 .footer h5{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -239,6 +237,10 @@
 }
 .footer .links, .footer .contacts{
     padding-top: 110px;
+}
+.footer .links a{
+    color: #59546D;
+    font-weight: bold;
 }
 .footer .contacts ul{
     margin: 20px 0px 0px -50px;

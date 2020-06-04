@@ -216,6 +216,14 @@ input::placeholder, textarea::placeholder{
 .footer .links, .footer .contacts{
     margin-top: 10%;
 }
+.footer .links a{
+    color: #59546D;
+    font-weight: bold;
+}
+.footer .links a{
+    color: #59546D;
+    font-weight: bold;
+}
 .footer .contacts ul{
     margin: 20px 0px 0px -50px;
 }
