@@ -103,14 +103,29 @@
 
 /*Team Images*/
 
-.team .row{
-    margin: 0px 50px 0px 50px;
+.team .member{
+    margin: 0px 50px 20px 50px;
     align-items: center;
 }
-.team img{
+.team .director{
+    text-align: center;
+}
+.team .director img{
+    border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin: 10px;
+    filter: brightness(50%);
+    transition-duration: 0.5s;
+}
+.team .director h3, .team .director h5{
+    color: #59546D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:0px 0px 10px rgba(196, 196, 204, 0.9) ;
+}
+.team .member img{
+    width: 250px;
+    height: 300px;
+    margin: 5%;
     filter: brightness(50%);
     transition-duration: 0.5s;
 }
@@ -118,12 +133,6 @@
     filter: brightness(100%);
     border: 10px solid rgb(196, 196, 204);
 }
-
-
-
-
-
-
 
 
 
