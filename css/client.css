@@ -11,9 +11,6 @@
 .navbar .navbar-brand{
     padding-left: 2em;
 }
-/* .navbar .dropdown:hover .dropdown-menu{
-    display: block !important; 
-} */
 .navbar .dropdown-menu{
     background-color: rgba(196, 196, 204,0.9) !important;
 }
@@ -25,9 +22,6 @@
     padding-left: 2em;
     padding-top: 3em;
 }
-/* .navbar .form-inline{
-    margin-top: -5em !important;
-} */
 .navbar .form-inline .form-control{
     background-color: rgb(196, 196, 204) ;
     border: none;
@@ -54,14 +48,7 @@
 
 
 
-
-
-
-
-
-
 /*Background Image of Clients Section*/
-
 
 .back-image{
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("../imgs/clients.jpg");
@@ -118,15 +105,6 @@
     filter: brightness(100%);
     border: 10px solid rgb(196, 196, 204);
 }
-
-
-
-
-
-
-
-
-
 
 
 /*Footer*/

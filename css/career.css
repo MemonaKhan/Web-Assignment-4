@@ -11,9 +11,6 @@
 .navbar .navbar-brand{
     padding-left: 2em;
 }
-/* .navbar .dropdown:hover .dropdown-menu{
-    display: block !important; 
-} */
 .navbar .dropdown-menu{
     background-color: rgba(196, 196, 204,0.9) !important;
 }
@@ -25,9 +22,6 @@
     padding-left: 2em;
     padding-top: 3em;
 }
-/* .navbar .form-inline{
-    margin-top: -5em !important;
-} */
 .navbar .form-inline .form-control{
     background-color: rgb(196, 196, 204) ;
     border: none;
@@ -51,9 +45,6 @@
         display: block !important; 
     }
 }
-
-
-
 
 
 /*Background Image of Career Section*/
@@ -101,29 +92,6 @@
     margin-top: 50px;
     width: 80%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Footer*/
@@ -191,8 +159,6 @@
         padding-bottom: 30px !important;
     }
 }
-
-
 
 
 /* Scroll to Top */

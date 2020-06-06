@@ -11,9 +11,6 @@
 .navbar .navbar-brand{
     padding-left: 2em;
 }
-/* .navbar .dropdown:hover .dropdown-menu{
-    display: block !important; 
-} */
 .navbar .dropdown-menu{
     background-color: rgba(196, 196, 204,0.9) !important;
 }
@@ -25,9 +22,6 @@
     padding-left: 2em;
     padding-top: 3em;
 }
-/* .navbar .form-inline{
-    margin-top: -5em !important;
-} */
 @media (min-width:990px){
     .navbar .form-inline{
         margin-top: -5em !important;
@@ -51,15 +45,6 @@
 .navbar .active{
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -197,17 +182,6 @@
 .policies img{
     padding-left: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Footer*/
