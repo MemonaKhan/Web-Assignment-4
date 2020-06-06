@@ -92,6 +92,7 @@
 .team .member{
     margin: 0px 50px 20px 50px;
     align-items: center;
+    text-align: center;
 }
 .team .director{
     text-align: center;
@@ -103,7 +104,7 @@
     filter: brightness(50%);
     transition-duration: 0.5s;
 }
-.team .director h3, .team .director h5{
+.team h3, .team h5{
     color: #59546D;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow:0px 0px 10px rgba(196, 196, 204, 0.9) ;
