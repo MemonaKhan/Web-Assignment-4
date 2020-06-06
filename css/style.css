@@ -65,14 +65,15 @@
     color: rgba(89, 84, 109,0.8);
     font-family: cursive;
     font-weight: bolder;
-    padding: 50px;
+    text-align: center;
+    padding-bottom: 7%;
 }
 .heading h1 span{
     color: rgba(156, 15, 6,0.8);
 }
 .heading p{
     color: #59546D;
-    padding: 0px 0px 0px 50px;
+    padding: 0% 0% 0% 7%;
     text-align: justify;
     font-family: monospace;
     font-size: 15px;
@@ -80,6 +81,11 @@
 .heading img{
     margin-top: 50px;
     width: 90%;
+}
+@media (max-width:990px){
+    .heading h1{
+        font-size: 200%;
+    }
 }
 
 
@@ -110,14 +116,12 @@
 /* Gallery */
 
 .gallery .heading{
-    margin: 50px 0px 50px 0px;
     text-align: center;
 }
 .gallery .heading h1{
     color: rgba(89, 84, 109,0.8);
     font-family: cursive;
     font-weight: bolder;
-    padding: 50px;
     font-size: 500%;
 }
 .gallery .heading h1 span{
@@ -131,6 +135,17 @@
     height: 250px;
     padding: 5px;
 }
+@media (max-width:990px){
+    .gallery .heading h1{
+        font-size: 400%;
+    }
+    .gallery .images img{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+/* Footer */
 
 .footer{
     margin-top: 50px;
@@ -139,7 +154,7 @@
     background-image: url("../imgs/bottom.png");
     background-repeat: no-repeat;
     background-position: bottom;
-    box-shadow: 10px 0 30px 10px rgb(196, 196, 204);
+    box-shadow: 0px -30px 40px -15px rgb(196, 196, 204);
 }
 .footer h5{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
